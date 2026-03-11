@@ -18,8 +18,9 @@ $$\left[ \begin{array}{ccccc|c}
 2 & 3 & 1 & 2 & 1 & 24 
 \end{array} \right]$$
 
-##3.Eliminasi Gauss (OBE)
-Langkah 1:
+## 3.Eliminasi Gauss (OBE)
+
+### Langkah 1:
 
  Menjadikan Pivot Baris 1 menjadi 1Kita bagi Baris 1 ($R_1$) dengan 2 Operasi: $R_1 \leftarrow \frac{1}{2} R_1$ [ \begin{array}{ccccc|c} 
 \mathbf{1} & 0 & 0 & 0 & 0 & 1 \\
@@ -29,7 +30,7 @@ Langkah 1:
 2 & 3 & 1 & 2 & 1 & 24 
 \end{array}
 
-Langkah 2: 
+### Langkah 2: 
 
 Mengnolkan elemen di bawah Pivot Kolom 1 Kita akan mengnolkan angka 4, 1, 3, dan 2 pada kolom pertama.
 
@@ -50,7 +51,7 @@ $$\left[ \begin{array}{ccccc|c}
 \end{array} \right]$$
 
 
-Langkah 3: 
+### Langkah 3: 
 
 Menjadikan Pivot Baris 2 menjadi 1Operasi: 
 $R_2 \leftarrow \frac{1}{3} R_2$ (Hasil: $6/3 = 2$)$$\left[ \begin{array}{ccccc|c} 
@@ -61,7 +62,7 @@ $R_2 \leftarrow \frac{1}{3} R_2$ (Hasil: $6/3 = 2$)$$\left[ \begin{array}{ccccc|
 0 & 3 & 1 & 2 & 1 & 22 
 \end{array} \right]$$
 
-Langkah 4:
+### Langkah 4:
 
  Mengnolkan elemen di bawah Pivot Kolom 2$R_3 \leftarrow R_3 - 2R_2$ (Hasil: $10 - 2(2) = 6$)$R_4 \leftarrow R_4 - 1R_2$ (Hasil: $9 - 1(2) = 7$)$R_5 \leftarrow R_5 - 3R_2$ (Hasil: $22 - 3(2) = 16$)$$\left[ \begin{array}{ccccc|c} 
 1 & 0 & 0 & 0 & 0 & 1 \\
@@ -71,7 +72,7 @@ Langkah 4:
 0 & 0 & 1 & 2 & 1 & 16 
 \end{array} \right]$$
 
-Langkah 5: 
+### Langkah 5: 
 
 Menjadikan Pivot Baris 3 menjadi 1Operasi: $R_3 \leftarrow \frac{1}{2} R_3$ (Hasil: $6/2 = 3$)$$\left[ \begin{array}{ccccc|c} 
 1 & 0 & 0 & 0 & 0 & 1 \\
@@ -81,7 +82,7 @@ Menjadikan Pivot Baris 3 menjadi 1Operasi: $R_3 \leftarrow \frac{1}{2} R_3$ (Has
 0 & 0 & 1 & 2 & 1 & 16 
 \end{array} \right]$$
 
-Langkah 6: 
+### Langkah 6: 
 
 Mengnolkan elemen di bawah Pivot Kolom 3$R_4 \leftarrow R_4 - 1R_3$ (Hasil: $7 - 3 = 4$)$R_5 \leftarrow R_5 - 1R_3$ (Hasil: $16 - 3 = 13$)$$\left[ \begin{array}{ccccc|c} 
 1 & 0 & 0 & 0 & 0 & 1 \\
@@ -92,7 +93,7 @@ Mengnolkan elemen di bawah Pivot Kolom 3$R_4 \leftarrow R_4 - 1R_3$ (Hasil: $7 -
 \end{array} \right]$$
 
 
-Hasil Akhir:  \begin{array}{ccccc|c} 
+### Hasil Akhir:  \begin{array}{ccccc|c} 
 1 & 0 & 0 & 0 & 0 & 1 \\
 0 & 1 & 0 & 0 & 0 & 2 \\
 0 & 0 & 1 & 0 & 0 & 3 \\
