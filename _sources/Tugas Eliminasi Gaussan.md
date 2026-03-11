@@ -1,6 +1,7 @@
 # Materi 1
 
 ## 1.(SPL)Sistem Persaman Linier
+c
 $$\begin{cases} 
 2x_1 + 0x_2 + 0x_3 + 0x_4 + 0x_5 = 2 \\
 4x_1 + 3x_2 + 0x_3 + 0x_4 + 0x_5 = 10 \\
